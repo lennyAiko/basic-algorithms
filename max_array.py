@@ -1,7 +1,7 @@
 # an algorithm to search for min and max numbers in an array
 
 # initialize array or collect user input
-run = int(input("How many digits?: "))
+run = int(input("How many digits in your array?: "))
 
 # initialize variable
 values = []

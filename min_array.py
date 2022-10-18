@@ -5,7 +5,7 @@ run = int(input("How many digits?: "))
 
 # initialize variable
 values = []
-max = 0
+min = 0
 
 # loop to perform operation
 for i in range(run):
@@ -13,10 +13,10 @@ for i in range(run):
     values.append(num)
 
 for i in range(len(values)):
-    if max == 0:
-        max = values[i]
-    if max > values[i]:
-        max = values[i]
+    if min == 0:
+        min = values[i]
+    if min > values[i]:
+        min = values[i]
 
 # show result
-print(max)
+print(min)

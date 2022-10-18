@@ -1,9 +1,6 @@
 # Check for palindrome in text and number
 
 # ask user choice
-from email import message
-
-
 print("""
     Welcome to palindrome checker.
 """)
